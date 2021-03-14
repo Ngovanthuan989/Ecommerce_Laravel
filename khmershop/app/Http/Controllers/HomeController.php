@@ -35,6 +35,10 @@ class HomeController extends Controller
         $products=Products_model::all();
         return view('front.shop', compact('products'));
     }
+    public function testphp()
+    {
+        # code...
+    }
     public function showCates($id)
     {
         # code...
